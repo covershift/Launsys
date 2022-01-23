@@ -5,13 +5,20 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Launsys.Winforms", "Launsys.Winforms\Launsys.Winforms.csproj", "{6699B6A9-F313-47BF-95BA-0B545D5D175F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launsys.Data", "Launsys.Data\Launsys.Data.csproj", "{2CCDCE6F-A755-434E-ADE9-44E91A225DEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Launsys.Data", "Launsys.Data\Launsys.Data.csproj", "{2CCDCE6F-A755-434E-ADE9-44E91A225DEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launsys.Business", "Launsys.Business\Launsys.Business.csproj", "{D3B61339-D1E5-4241-A581-F1A77B790D8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Launsys.Business", "Launsys.Business\Launsys.Business.csproj", "{D3B61339-D1E5-4241-A581-F1A77B790D8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launsys.Entity", "Launsys.Entity\Launsys.Entity.csproj", "{307D0CBF-BDFC-4CFC-B113-9D24B8FD227B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Launsys.Entity", "Launsys.Entity\Launsys.Entity.csproj", "{307D0CBF-BDFC-4CFC-B113-9D24B8FD227B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launsys.Framework", "Launsys.Framework\Launsys.Framework.csproj", "{ADE794B2-F962-4CA7-B6AF-3AE213C9EFBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Launsys.Framework", "Launsys.Framework\Launsys.Framework.csproj", "{ADE794B2-F962-4CA7-B6AF-3AE213C9EFBB}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "launsysdb", "launsysdb\launsysdb.sqlproj", "{F4402699-5D55-4C0C-A545-665FDA1AC114}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD8BF90F-BCBC-4681-96D1-8F56D691BB8B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +46,12 @@ Global
 		{ADE794B2-F962-4CA7-B6AF-3AE213C9EFBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADE794B2-F962-4CA7-B6AF-3AE213C9EFBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADE794B2-F962-4CA7-B6AF-3AE213C9EFBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4402699-5D55-4C0C-A545-665FDA1AC114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4402699-5D55-4C0C-A545-665FDA1AC114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4402699-5D55-4C0C-A545-665FDA1AC114}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F4402699-5D55-4C0C-A545-665FDA1AC114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4402699-5D55-4C0C-A545-665FDA1AC114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4402699-5D55-4C0C-A545-665FDA1AC114}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
