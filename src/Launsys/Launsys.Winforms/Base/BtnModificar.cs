@@ -1,5 +1,4 @@
-﻿using Launsys.Business;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,16 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Launsys.Winforms
+namespace Launsys.Winforms.Base
 {
-    public partial class FrmMenuPrincipal : Form
+    public partial class BtnModificar : UserControl
     {
-        ServicioBL servicioBL = new ServicioBL();
-
-        public FrmMenuPrincipal()
+        public BtnModificar()
         {
             InitializeComponent();
-            var xd = servicioBL.ConsultarLista();
         }
     }
 }

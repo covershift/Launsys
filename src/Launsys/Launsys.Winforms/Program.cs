@@ -1,3 +1,5 @@
+using Launsys.Winforms.MDI;
+
 namespace Launsys.Winforms
 {
     internal static class Program
@@ -11,7 +13,7 @@ namespace Launsys.Winforms
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            //Application.Run(new FrmMenuPrincipal());
+            Application.Run(new FrmMenuPrincipal());
         }
     }
 }
